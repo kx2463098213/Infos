@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimationStyle</item>
+        <item name="mainBackground">@color/colorItemBg</item>
+        <item name="text_style">@style/text_day</item>
+    </style>
+
+    <style name="AppTheme_Night" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimationStyle</item>
+        <item name="mainBackground">@color/colorItemBg_night</item>
+        <item name="text_style">@style/text_night</item>
+    </style>
+
+    <style name="AppWelcome" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+        <item name="android:windowBackground">@drawable/splash_layer</item>
+    </style>
+
+
+    <style name="activityAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_from_left</item>
+    </style>
+
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+    </style>
+
+    <style name="text_day">
+        <item name="android:textColor">@color/colorArticleTitle</item>
+        <item name="android:background">@color/colorItemBg</item>
+    </style>
+    <style name="text_night">
+        <item name="android:textColor">@color/colorArticleTitle_night</item>
+        <item name="android:background">@color/colorItemBg_night</item>
+    </style>
+</resources>

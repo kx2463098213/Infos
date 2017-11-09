@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary_night">#27408B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark_night">#3A5FCD</color>
+    <color name="colorAccent">#E0EEEE</color>
+    <color name="colorAccent_night">#E0EEEE</color>
+
+    <color name="colorItemBg">#FFFAFA</color>
+    <color name="colorItemBg_night">#363636</color>
+    <color name="colorArticleTitle">#333333</color>
+    <color name="colorArticleTitle_night">#E8E8E8</color>
+
+</resources>
